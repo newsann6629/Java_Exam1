@@ -8,6 +8,13 @@ public class Computer {
     public String getBrand(){
         return this.brand;
     }
+    public void setSeries(String s){
+        this.series = s;
+    }
+    public  String getSeries(){
+        return this.series;
+    }
+
 
     public void powerOn(){
         System.out.println("computer is power on");
