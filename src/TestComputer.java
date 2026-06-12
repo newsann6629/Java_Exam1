@@ -8,6 +8,9 @@ public class TestComputer {
         System.out.println("คอมพิวเตอร์ยี่ห้อ : " + computer.getBrand());
         computer.setSeries("a67");
         System.out.println(computer.getSeries());
+        computer.setCpuname("i5 7400f");
+        computer.setCpuspeed("5.0Ghz");
+        System.out.println(computer.getCpuname() + " " + computer.getCpuspeed());
 
         computer.powerOff();
         computer.restart();
