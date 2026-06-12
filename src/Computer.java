@@ -2,13 +2,20 @@ public class Computer {
     private String brand;
     private String series;
 
-    public void PowerOn(){
+    public void setBrand(String b){
+        this.brand = b;
+    }
+    public String getBrand(){
+        return this.brand;
+    }
+
+    public void powerOn(){
         System.out.println("computer is power on");
     }
-    public void PowerOff(){
+    public void powerOff(){
         System.out.println("computer is power off");
     }
-    public void Restart(){
+    public void restart(){
         System.out.println("computer is restarting");
     }
 }
