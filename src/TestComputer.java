@@ -9,8 +9,8 @@ public class TestComputer {
         computer.setSeries("a67");
         System.out.println(computer.getSeries());
         computer.setCpuname("i5 7400f");
-        computer.setCpuspeed("5.0Ghz");
-        System.out.println(computer.getCpuname() + " " + computer.getCpuspeed());
+        computer.setCpuspeed(5.0f);
+        System.out.println(computer.getCpuname() + " " + computer.getCpuspeed() + "GHZ");
 
         computer.powerOff();
         computer.restart();
